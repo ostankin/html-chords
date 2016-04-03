@@ -87,7 +87,7 @@ $(document).ready(function() {
 	var lang = $("head script#html-chords-script").attr("lang");
 	switch (lang) {
 		case "ru":
-			gcwriter.init("Изменить тональность", "на полтона вверх", "на полтона вниз");
+			gcwriter.init("РР·РјРµРЅРёС‚СЊ С‚РѕРЅР°Р»СЊРЅРѕСЃС‚СЊ", "РЅР° РїРѕР»С‚РѕРЅР° РІРІРµСЂС…", "РЅР° РїРѕР»С‚РѕРЅР° РІРЅРёР·");
 		default:
 			gcwriter.init("Key change", "up a halftone", "down a halftone");
 	}
