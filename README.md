@@ -48,6 +48,8 @@ add `jquery.js` as well:
 <script type="text/javascript" src="js/html-chords.js"></script>
 ```
 
+Two example HTMLs are an illustration of how the script works. `style.css` is also not a part of the module, but it is used in the example to beautify the pages. I do not own this CSS, it is taken from [Truly Simple Free CSS Template ](http://www.free-css.com/free-css-templates/page41/truly-simple) by Igor Penjivrag.
+
 ### Customization
 
 By default the key change elements are written in English.
