@@ -32,7 +32,7 @@ Assumptions and limitations:
 * The script assumes that each verse is wrapped into `<p>` tag.
 * The script adds padding over each line in each verse, regardless of the presence of chords in them. I couldn't find an elegant solution for distinguishing verses with and without chords.
 * Symbols `{` and `}` can't be escaped - this means they may not appear in the song texts.
-* Since there are several ways to denote the same note, transpositions up and down are different. Step down always use "flats", steps up always uses "sharp". The script understands both `B` and `Bb` as "B flat", however always uses `H` during transpositions.
+* Since there are several ways to denote the same note, transpositions up and down are different. Step down always use "flats", step up always uses "sharp". The script understands both `B` and `Bb` as "B flat", however always uses `H` when doing transpositions.
 * To place the control for key change, insert `<div class="transposition"></div>` element anywhere in the song text. The number of such elements is not limted.
 * When needed to put a chord over an empty space (e.g. before the line begins or after it ends), one can put any number of spaces into the chord, or even use an empty structure `{  }` as a padding element with an arbitrary number of spaces. Spaces outside the curly braces will be ignored by HTML-interpreter.
 
@@ -48,7 +48,7 @@ add `jquery.js` as well:
 <script type="text/javascript" src="js/html-chords.js"></script>
 ```
 
-Two example HTMLs are an illustration of how the script works. `style.css` is also not a part of the module, but it is used in the example to beautify the pages. I do not own this CSS, it is taken from [Truly Simple Free CSS Template ](http://www.free-css.com/free-css-templates/page41/truly-simple) by Igor Penjivrag.
+Two example HTMLs illustrate how the script works. `style.css` is not a part of the module, it is used in the examples to beautify the pages. I do not own this CSS, it is taken from [Truly Simple Free CSS Template ](http://www.free-css.com/free-css-templates/page41/truly-simple) by Igor Penjivrag.
 
 ### Customization
 
