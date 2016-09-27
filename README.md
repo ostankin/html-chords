@@ -27,7 +27,10 @@ by an underscore in the beginning: `{_Am}` - these are usually needed in intros 
 in comments to the song (e.g. "_Strictly speaking the chorus starts with `Dm(maj)7`,
 but it can be simplified to just `Dm`_").
 
-Assumptions and limitations:
+* [Example in English](http://ostankin.github.io/html-chords/sample-english.htm)
+* [Example in Russian](http://ostankin.github.io/html-chords/sample-russian.htm)
+
+### Assumptions and limitations
 * The script affects only the document areas within `<div class="song">` elements. The number of such elements is not limited.
 * The script assumes that each verse is wrapped into `<p>` tag.
 * The script adds padding over each line in each verse, regardless of the presence of chords in them. I couldn't find an elegant solution for distinguishing verses with and without chords.
